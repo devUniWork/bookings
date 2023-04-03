@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  booking: MyString
+  booking_datetime: 2023-04-03 19:28:46
+  phone: MyString
+  number_of_people: 1
+  requests: MyText
+
+two:
+  booking: MyString
+  booking_datetime: 2023-04-03 19:28:46
+  phone: MyString
+  number_of_people: 1
+  requests: MyText
