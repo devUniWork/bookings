@@ -305,7 +305,7 @@ Devise.setup do |config|
   config.responder.error_status = :unprocessable_entity
   config.responder.redirect_status = :see_other
 
-  config.omniauth :github, '313215', 'dee0f052ad398c24b2e802a807abaacfc41e1dfb',
+  config.omniauth :github, ENV['GITHUB_CLIENT_ID'], ENV['GITHUB_PRIVATE'],
   scope: 'user,public_repo', callback_url: "http://localhost:3000"
 
   # ==> Configuration for :registerable
